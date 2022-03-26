@@ -1,0 +1,202 @@
+.body{
+  margin: 0px;
+  padding-top: 80px;
+  background-color: rgb(243, 242, 242);
+}
+.search-bar{
+  font-size: 20px;
+  display: block;
+  background-color: rgb(243, 242, 242);
+}
+.header{
+  background-color: white;
+  height: 75px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: rgb(224, 219, 219);
+  background-color: rgb(243, 242, 242);
+  
+}
+
+
+.left-sec{
+  display: flex;
+  align-items: center;
+}
+.hamburger{
+  height: 25px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.youtube{
+  height: 25px;
+}
+.middle-sec{
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 70px;
+  margin-right:20px;
+  max-width: 600px;
+}
+.search-bar{
+  flex: 1;
+  height: 35px;
+  padding-left: 12px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(197, 195, 195);
+  border-radius: 2px;
+  box-shadow: inset 1px 1px 1px rgb(0, 0 ,0 ,0.3);
+  width: 0;
+}
+.search-bar::placeholder{
+  font-family: roboto;
+  font-size: 20px;
+}
+.search-butt{
+  background-color: rgb(240, 239, 239);
+  height: 39px;
+  width: 60px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(197, 195, 195);
+  margin-right: 10px;
+  position:relative;
+}
+.search-butt .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 12px;
+  bottom:-30px;
+  opacity: 0;
+  pointer-events: none;
+}
+.search-butt:hover .tooltip {
+  opacity: 1;
+}
+
+.search{
+  height: 25px;
+}
+.voice-butt{
+  background-color: rgb(245, 240, 240);
+  height: 50spx;
+  width: 45px;
+  border-width: 1px;
+  border-color:rgb(245, 240, 240);
+  border-style: solid;
+  border-radius: 20px;
+}
+.voice-butt .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 12px;
+  bottom:-12px;
+  opacity: 0;
+  pointer-events: none;
+}
+.voice-butt:hover .tooltip {
+  opacity: 1;
+}
+.voice-search{
+  height: 30px;
+}
+.right-sec{
+  display: flex;
+  align-items:center;
+  width: 200px;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+}
+.upload{
+ 
+}
+.upload .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 12px;
+  bottom:-12px;
+  opacity: 0;
+  pointer-events: none;
+}
+.upload:hover .tooltip {
+  opacity: 1;
+}
+.up{
+  height: 30px;
+}
+.youapps{
+
+}
+.youapps .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 12px;
+  bottom:-12px;
+  opacity: 0;
+  pointer-events: none;
+}
+.youapps:hover .tooltip {
+  opacity: 1;
+}
+
+.yo{
+  height: 30px;
+}
+.notifi{
+
+}
+.notifi .tooltip {
+  position: absolute;
+  background-color: gray;
+  color: white;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  padding-left: 7px;
+  padding-right: 7px;
+  font-size: 12px;
+  bottom:-12px;
+  opacity: 0;
+  pointer-events: none;
+}
+.notifi:hover .tooltip {
+  opacity: 1;
+}
+.no{
+  height: 30px;
+}
+.mychannel{
+
+}
+.my{
+ height: 35px;
+}
